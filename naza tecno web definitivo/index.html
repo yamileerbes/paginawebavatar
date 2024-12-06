@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css"
+    />
+    <link rel="stylesheet" href="estilo.css">
+
+    <title>Proyecto Avatar</title>
+  </head>
+  <body>
+    <div class=" paper container">
+      <header>
+        <h1 id="menu">Avatar: Siguiendo el corazón</h1>
+      </header>
+    </div>
+    <div class=" paper container">
+        <a href="#inicio">
+          <img src="imagenes/inicio.png" alt="INICIO" style="width: 120px; ">
+      </a>
+      <a href="#inspiracion">  
+          <img src="imagenes/inspiracion.png" alt="INSPIRACION" style="width: 150px; height: auto;;">
+      </a>
+      
+      <a href="#primera">
+       
+          <img src="imagenes/proceso.png" alt="PROCESO CREATIVO" style="width: 120px; height: auto;">
+      
+      </a>
+      <a href="#juego">
+       
+          <img src="imagenes/jugar.png" alt="JUEGO" style="width: 120px; height: auto; ">
+       
+      </a>
+
+      <a href="#aprendizaje">
+      
+          <img src="imagenes/aprendizaje.png" alt="APRENDIZAJE" style="width: 150px; height: auto;">
+      
+      </a>
+      
+      <a href="#final">
+       
+          <img src="imagenes/final.png" alt="CREDITOS FINALES" style="width: 120px; height: auto;;">
+       
+      </a>
+  </div>
+   
+    
+
+    <div id="inicio" class="paper container">
+      <article>
+        <h2 class="titulos">Presentación</h2>
+        <a href="#menu"><img src="imagenes/volver.png" alt="flecha"></a>
+        <p>
+          Bienvenidos a nuestro proyecto: La creación de un juego basado en
+          "Avatar: La leyenda de Aang".
+        </p>
+        <p>
+          En esta página, exploraremos cómo convertimos una idea inspirada en el capítulo <strong>"La cueva de los enamorados"</strong> en una <strong>novela visual</strong> y, posteriormente, en un <strong>minijuego interactivo</strong>.
+          Acompáñanos en nuestro recorrido creativo y técnico, ¡esperamos que te inspire!
+        </p>
+        <div class="cards-container">
+          <div id="fio" class="card">
+            <div class="card-body">
+              <h4 class="card-title">Gavilan Fiorella</h4>
+              <h5 class="card-subtitle"> Legajo 119039/8</h5>
+              <p class="card-text">You can also place image on the bottom of the card.</p>
+            </div>
+            <img class="image-bottom" src="https://unsplash.it/550/250" alt="Card example image">
+          </div>
+
+          <div id="naza" class="card">
+            <div class="card-body">
+              <h4 class="card-title">Erbes Yamile Nazarena</h4>
+              <h5 class="card-subtitle"> Legajo 94700/7</h5>
+              <p class="card-text">You can also place image on the bottom of the card.</p>
+            </div>
+            <img class="image-bottom" src="https://unsplash.it/550/250" alt="Card example image">
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div id="inspiracion" class="paper container">
+      <article>
+        <h2 class="titulos">Inspiración</h2>
+        <a href="#menu"><img src="imagenes/volver.png" alt="flecha"></a>
+        <p>
+          Todo comenzó luego de una consigna en clase: crear una novela visual
+          con temática de <strong>dibujos animados</strong>. Queríamos un proyecto que fuera nostálgico y de diversos caminos, planteando al inicio 5 distintos finales que, por limitaciones de tiempo, se redujeron a 3.
+        </p>
+        <img src="imagenes/foto3.jpg" class="float-left" alt="Inspiración" />
+        <p>
+          Elegimos el capítulo <strong>"La cueva de los enamorados"</strong> por su tono místico y romántico, ideal para explorar mecánicas narrativas interactivas y caminos diversos desde el inicio.
+        </p>
+        
+        
+      </article>
+    </div>
+
+    <div id="primera" class="paper container">
+      <article>
+        <h2 class="titulos">Primera etapa</h2>
+        <a href="#menu"><img src="imagenes/volver.png" alt="flecha"></a>
+        <p>
+          En esta etapa, introdujimos programación orientada a objetos para
+          mejorar las mecánicas del juego. El equipo trabajó en el desarrollo de un minijuego donde Aang debe recoger corazones mientras evita obstáculos para lograr el objetivo final.
+        </p>
+      </article>
+    </div>
+
+    <div id="juego" class="paper container">
+      <article>
+        <h2 class="titulos">Juego final</h2>
+        <a href="#menu"><img src="imagenes/volver.png" alt="flecha"></a>
+        <div class="row flex-spaces child-borders">
+          <label class="paper-btn margin" for="modal-1">Ver juego</label>
+        </div>
+        <input class="modal-state" id="modal-1" type="checkbox">
+        <div class="modal">
+          <label class="modal-bg" for="modal-1"></label>
+          <div class="modal-body">
+            <iframe src="tpfinalparte2/index.html" frameborder="0" width="640" height="480"></iframe>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div id="aprendizaje" class="paper container">
+      <article>
+        <h2 class="titulos">Primera etapa</h2>
+        <a href="#menu"><img src="imagenes/volver.png" alt="flecha"></a>
+        <p>
+          En esta etapa, introdujimos programación orientada a objetos para
+          mejorar las mecánicas del juego. El equipo trabajó en el desarrollo de un minijuego donde Aang debe recoger corazones mientras evita obstáculos para lograr el objetivo final.
+        </p>
+      </article>
+    </div>
+
+
+    <footer id="final" class="paper container">
+      <h2 class="titulos">Créditos</h2>
+      <p>Hecho con cariño por el equipo. Se extraña TDM1.</p>
+    </footer>
+  </body>
+</html>

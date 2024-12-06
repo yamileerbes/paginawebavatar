@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'MiFuente';
+    src: url('imagenes/HerculanumLTProRoman.TTF') format('truetype');  
+}
+
+body {
+    background-color: #1b1b1b;  
+    font-family: 'MiFuente', sans-serif;  
+    margin: 0; 
+    padding: 0; 
+    cursor: url('imagenes/cursor.png'), auto;
+}
+
+.container {
+    background-color: rgb(12, 12, 12); 
+    color: #aea59a; 
+}
+
+a {
+    border: none;           
+    background: transparent;
+    outline: none;
+    cursor:pointer; /* Indica que es un botón interactivo */
+    max-height: auto;
+    max-width:auto;
+    display: inline-block;
+}
+
+a:hover {
+    transform: scale(1.1); /* Agrega un efecto al pasar el mouse */
+    transition: transform ;
+}
+
+.cards-container {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 17rem;
+    text-align: center;
+}
